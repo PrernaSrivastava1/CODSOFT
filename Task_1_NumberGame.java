@@ -29,7 +29,21 @@
        System.out.println("Round  " +i);
        System.out.println("Guess The Generated Number!");
 
-          
+       //loop for attempts
+       for(int j=1;j<=attempts;j++){
+             
+        //code to input the guessed numbers
+        Scanner sc = new Scanner(System.in);
+        guess = sc.nextInt();
+
+ 
+        if(guess > number){
+        System.out.println("Too High! :(");
+        }
+
+        else if  (guess < number){
+        System.out.println("Too Low! :(");
+        }
 
        
      
