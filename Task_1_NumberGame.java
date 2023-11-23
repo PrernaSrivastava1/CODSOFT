@@ -17,8 +17,8 @@
     System.out.println("All The Best!");
     System.out.println("Let's Start!");
 
-    //loop for rounds
 
+    //loop for rounds
     for(int i=1; i<=round;i++){
 
       //Code to generate Random numbers(1-100)
@@ -44,10 +44,35 @@
         else if  (guess < number){
         System.out.println("Too Low! :(");
         }
+        
+        else if (guess == number){
+         System.out.println("Correct!!! :)");
+         score+=1;
+         break;
+         }
+
+         else{
+         System.out.println("oh!... You Loose the Game!:(");
+         }
+           
+         } 
+
+         }
+
+         System.out.println("");
+         System.out.println("Game Over!");
+         System.out.println("Youre Total Score out of 3 is: " +score);
+
+         if(score==3){
+         System.out.println("Hurreyyy!! You Won the Game.");
+         }
+
+ }
+}
+
 
        
      
 
 
-    }
- }
+    
