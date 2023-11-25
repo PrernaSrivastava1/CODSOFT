@@ -1,6 +1,6 @@
 import java.util.*;
-
-public class Task_2_StudentGrade_Calculator {
+                     
+public class Task_2_GradeCal {
 
     //introdunction.
 System.out.println(" -Student Grade Calculator- ");
@@ -23,6 +23,7 @@ int marksHindi = sc.nextInt();
 
 System.out.println("Enter the marks Obtained out of 100 in English : ");
 int marksEng = sc.nextInt();
+
 
 
 
