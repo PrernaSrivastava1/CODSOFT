@@ -2,11 +2,14 @@ import java.util.*;
                      
 public class Task_2_GradeCal {
 
+    public static void main(String [] args){
+
     //introdunction.
 System.out.println(" -Student Grade Calculator- ");
         
 //code to input marks of 5 subjects.
 System.out.println("Enter the Marks obtained in the respective 5 subjects");
+System.out.println("                     *****                           ");
 
 Scanner sc = new Scanner(System.in);
 System.out.println("Enter the marks Obtained out of 100 in Maths : ");
@@ -26,6 +29,6 @@ int marksEng = sc.nextInt();
 
 
 
-
+    }
 
 }
