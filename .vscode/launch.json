@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Task_1_NumberGame",
+            "request": "launch",
+            "mainClass": "Task_1_NumberGame",
+            "projectName": "CODSOFT_5769f566"
+        },
+        {
+            "type": "java",
+            "name": "Task_2_GradeCal",
+            "request": "launch",
+            "mainClass": "Task_2_GradeCal",
+            "projectName": "CODSOFT_5769f566"
+        },
+        {
+            "type": "java",
+            "name": "Task_3_ATM_interface",
+            "request": "launch",
+            "mainClass": "Task_3_ATM_interface",
+            "projectName": "CODSOFT_5769f566"
+        },
+        {
+            "type": "java",
+            "name": "Task_4_QuizeTimer",
+            "request": "launch",
+            "mainClass": "Task_4_QuizeTimer",
+            "projectName": "CODSOFT_5769f566"
+        }
+    ]
+}
