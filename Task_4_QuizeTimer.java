@@ -19,7 +19,7 @@ public static void main(String[] args) {
           seconds++;
       }
   };
-  timer.schedule(task, 1000, 1000);
+    timer.schedule(task, 1000, 1000);
 
 
     //intro
@@ -57,7 +57,7 @@ public static void main(String[] args) {
     }
     }else {
       System.out.println("Time's up!");
-  }
+    }
     System.out.println("");
     
   
@@ -68,7 +68,7 @@ public static void main(String[] args) {
     System.out.println(" 3. : D2O.   ");
     System.out.println(" 4. : NO2.   ");
 
-   ans = sc.nextInt();
+    ans = sc.nextInt();
     if (seconds <= 20) {
     if(ans==1){
       System.out.println("Correct!");
@@ -79,8 +79,8 @@ public static void main(String[] args) {
     }
     }else {
       System.out.println("Time's up!");
-  }
-System.out.println("");
+    }
+    System.out.println("");
     
 
 
@@ -91,7 +91,7 @@ System.out.println("");
     System.out.println(" 3. : In All Sector.   ");
     System.out.println(" 4. : Indian Army Service .   ");
 
-ans = sc.nextInt();
+    ans = sc.nextInt();
     if (seconds <= 20) {
     if(ans==2){
       System.out.println("Correct!");
@@ -102,8 +102,8 @@ ans = sc.nextInt();
     }
     }else {
       System.out.println("Time's up!");
-  }
-System.out.println("");
+    }
+    System.out.println("");
 
 
     System.out.println("Q.D : Who is the Father of Computer ?");
@@ -113,7 +113,7 @@ System.out.println("");
     System.out.println(" 3. : Newton.   ");
     System.out.println(" 4. : Ramanujan.   ");
 
-ans = sc.nextInt();
+    ans = sc.nextInt();
     if (seconds <= 20) {
     if(ans==1){
       System.out.println("Correct!");
@@ -124,8 +124,8 @@ ans = sc.nextInt();
     }
     }else {
       System.out.println("Time's up!");
-  }
-System.out.println("");
+    }
+    System.out.println("");
 
 
     System.out.println("Q.E : Full form of DTH?");
@@ -136,7 +136,7 @@ System.out.println("");
     System.out.println(" 4. : Delete the Hundered.   ");
 
 
-  ans = sc.nextInt();
+    ans = sc.nextInt();
     if (seconds <= 20) {
     if(ans==1){
       System.out.println("Correct!");
@@ -147,18 +147,14 @@ System.out.println("");
     }
     }else {
       System.out.println("Time's up!");
+    }
+    System.out.println("");
+
+
+    System.out.println("Total Score : " +count);
+
   }
-System.out.println("");
-
-
-  System.out.println("Total Score : " +count);
-
-  }
-
-    
-
-
-}
+   }
 }
 
 
